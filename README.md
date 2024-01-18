@@ -56,6 +56,10 @@ cd path/to/plugin-starter
 编译插件：
 
 ```bash
+# proxy
+export http_proxy=http://127.0.0.1:10818
+export https_proxy=http://127.0.0.1:10818
+# 
 # macOS / Linux
 ./gradlew build
 
